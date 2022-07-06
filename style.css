@@ -7,8 +7,10 @@
     box-sizing: border-box;
 }
 main{
-    display: grid;
-    place-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
    
 }
@@ -76,7 +78,7 @@ button {
 
 }
 button:hover {
-    transform: scale(1.05);
+    transform: scale(1.07);
 
 }
 .equals {
